@@ -34,7 +34,9 @@ end
 #You should use the `each_key` method to iterate over your hash and print out each key.
 
 def all_keys (hash)
-    
+    hash.each_key {|key| 
+      puts key 
+    }
 end
 
 #4. Define a method called `all_data` that takes a hash as an argument.
